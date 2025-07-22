@@ -1,0 +1,30 @@
+O Fluxo de Trabalho a Partir de Agora:
+Para cada vez que você fizer alterações no seu código:
+
+Faça suas alterações no VS Code.
+
+No terminal, na pasta do projeto:
+
+Bash
+
+git status              # Opcional: Para ver o que mudou
+git add .               # Adiciona todos os arquivos alterados ao staging
+git commit -m "Sua mensagem descritiva aqui" # Salva as mudanças localmente
+git push                # Envia as mudanças para o GitHub
+Se você for trabalhar em outra máquina:
+
+No outro computador, na pasta onde você quer o projeto:
+
+Bash
+
+git clone https://github.com/SeuUsuario/NomeDoRepositorio.git
+Isso baixará o projeto completo do GitHub.
+
+Antes de começar a trabalhar (se você já tem o projeto clonado):
+
+Bash
+
+git pull origin main    # Puxa as últimas alterações do GitHub para o seu computador
+Com isso, você terá seus projetos sincronizados e com controle de versão em ambos os computadores! Qual é o nome do seu projeto?
+
+https://gemini.google.com/app/908111bfb545d80c
